@@ -4,9 +4,28 @@
 
 int main(){
 	
-	int base, base2, base3, base4, base5, altura, altura2, altura3, altura4, altura5, PE, PE2, PE3, PE4, PE5, cantidad_tuberia, cantidad_tuberia2, cantidad_tuberia3, cantidad_tuberia4, cantidad_tuberia5, n_bulbos_d_m, n_bulbos_d_m2, n_bulbos_d_m3, n_bulbos_d_m4, n_bulbos_d_m5, cantidad_bulbos, cantidad_bulbos2, cantidad_bulbos3, cantidad_bulbos4, cantidad_bulbos5, cantidad_reguladores, cantidad_reguladores2, cantidad_reguladores3, cantidad_reguladores4, cantidad_reguladores5, tuberia_por_metro_cuadrado, tuberia_por_metro_cuadrado2, tuberia_por_metro_cuadrado3, tuberia_por_metro_cuadrado4, tuberia_por_metro_cuadrado5, bulbos_por_metro_cuadrado, bulbos_por_metro_cuadrado2, bulbos_por_metro_cuadrado3, bulbos_por_metro_cuadrado4, bulbos_por_metro_cuadrado5, reguladores_por_metro_cuadrado, reguladores_por_metro_cuadrado2, reguladores_por_metro_cuadrado3, reguladores_por_metro_cuadrado4, reguladores_por_metro_cuadrado5, costo_por_metro_tuberia, costo_por_metro_tuberia2, costo_por_metro_tuberia3, costo_por_metro_tuberia4, costo_por_metro_tuberia5, costo_por_metro_blubos, costo_por_metro_blubos2, costo_por_metro_blubos3, costo_por_metro_blubos4, costo_por_metro_blubos5, costo_por_metro_reguladores, costo_por_metro_reguladores2, costo_por_metro_reguladores3, costo_por_metro_reguladores4, costo_por_metro_reguladores5, costo_total, costo_total2, costo_total3, costo_total4, costo_total5,costo_total_metro, costo_por_metro_cuadrado, costo_por_metro_cuadrado2, costo_por_metro_cuadrado3, costo_por_metro_cuadrado4, costo_por_metro_cuadrado5, costo_total_tuberia, costo_total_tuberia2, costo_total_tuberia3, costo_total_tuberia4, costo_total_tuberia5, n_paralelogramo, n_paralelogramo2, n_paralelogramo3, n_paralelogramo4, n_paralelogramo5, area_paralelogramo, area_paralelogramo2, area_paralelogramo3, area_paralelogramo4, area_paralelogramo5, area_del_lugar, area_del_lugar2, area_del_lugar3, area_del_lugar4, area_del_lugar5, costo_por_metro_bulbos, costo_por_metro_bulbos2, costo_por_metro_bulbos3, costo_por_metro_bulbos4, costo_por_metro_bulbos5, costo_total_bulbos, costo_total_bulbos2, costo_total_bulbos3, costo_total_bulbos4, costo_total_bulbos5, costo_total_reguladores, costo_total_reguladores2, costo_total_reguladores3, costo_total_reguladores4, costo_total_reguladores5, costo_por_metro_regulador, costo_por_metro_regulador2, costo_por_metro_regulador3, costo_por_metro_regulador4, costo_por_metro_regulador5, costo_total_metro2, costo_total_metro3, costo_total_metro4, costo_total_metro5, costo_total_por_dos_years_bulbos, costo_total_por_dos_years_bulbos2, costo_total_por_dos_years_bulbos3, costo_total_por_dos_years_bulbos4, costo_total_por_dos_years_bulbos5, plazo_de_renovacion, plazo_de_renovacion2, plazo_de_renovacion3, plazo_de_renovacion4, plazo_de_renovacion5, duracion_mantenimiento, duracion_mantenimiento2, duracion_mantenimiento3, duracion_mantenimiento4, duracion_mantenimiento5, veces_que_se_renueva_b, veces_que_se_renueva_b2, veces_que_se_renueva_b3, veces_que_se_renueva_b4, veces_que_se_renueva_b5, numerocamp, camp, opcion, op, numero, selec1, selec2, selec3, selec4, selec5, selec6;
+	int opcion, base, base2, base3, base4, base5, altura, altura2, altura3, altura4, altura5, PE, PE2, PE3, PE4, PE5, cantidad_tuberia, cantidad_tuberia2, cantidad_tuberia3, cantidad_tuberia4, cantidad_tuberia5, n_bulbos_d_m, n_bulbos_d_m2, n_bulbos_d_m3, n_bulbos_d_m4, n_bulbos_d_m5, cantidad_bulbos, cantidad_bulbos2, cantidad_bulbos3, cantidad_bulbos4, cantidad_bulbos5, cantidad_reguladores, cantidad_reguladores2, cantidad_reguladores3, cantidad_reguladores4, cantidad_reguladores5, tuberia_por_metro_cuadrado, tuberia_por_metro_cuadrado2, tuberia_por_metro_cuadrado3, tuberia_por_metro_cuadrado4, tuberia_por_metro_cuadrado5, bulbos_por_metro_cuadrado, bulbos_por_metro_cuadrado2, bulbos_por_metro_cuadrado3, bulbos_por_metro_cuadrado4, bulbos_por_metro_cuadrado5, reguladores_por_metro_cuadrado, reguladores_por_metro_cuadrado2, reguladores_por_metro_cuadrado3, reguladores_por_metro_cuadrado4, reguladores_por_metro_cuadrado5, costo_por_metro_tuberia, costo_por_metro_tuberia2, costo_por_metro_tuberia3, costo_por_metro_tuberia4, costo_por_metro_tuberia5, costo_por_metro_blubos, costo_por_metro_blubos2, costo_por_metro_blubos3, costo_por_metro_blubos4, costo_por_metro_blubos5, costo_por_metro_reguladores, costo_por_metro_reguladores2, costo_por_metro_reguladores3, costo_por_metro_reguladores4, costo_por_metro_reguladores5, costo_total, costo_total2, costo_total3, costo_total4, costo_total5,costo_total_metro, costo_por_metro_cuadrado, costo_por_metro_cuadrado2, costo_por_metro_cuadrado3, costo_por_metro_cuadrado4, costo_por_metro_cuadrado5, costo_total_tuberia, costo_total_tuberia2, costo_total_tuberia3, costo_total_tuberia4, costo_total_tuberia5, n_paralelogramo, n_paralelogramo2, n_paralelogramo3, n_paralelogramo4, n_paralelogramo5, area_paralelogramo, area_paralelogramo2, area_paralelogramo3, area_paralelogramo4, area_paralelogramo5, area_del_lugar, area_del_lugar2, area_del_lugar3, area_del_lugar4, area_del_lugar5, costo_por_metro_bulbos, costo_por_metro_bulbos2, costo_por_metro_bulbos3, costo_por_metro_bulbos4, costo_por_metro_bulbos5, costo_total_bulbos, costo_total_bulbos2, costo_total_bulbos3, costo_total_bulbos4, costo_total_bulbos5, costo_total_reguladores, costo_total_reguladores2, costo_total_reguladores3, costo_total_reguladores4, costo_total_reguladores5, costo_por_metro_regulador, costo_por_metro_regulador2, costo_por_metro_regulador3, costo_por_metro_regulador4, costo_por_metro_regulador5, costo_total_metro2, costo_total_metro3, costo_total_metro4, costo_total_metro5, costo_total_por_dos_years_bulbos, costo_total_por_dos_years_bulbos2, costo_total_por_dos_years_bulbos3, costo_total_por_dos_years_bulbos4, costo_total_por_dos_years_bulbos5, plazo_de_renovacion, plazo_de_renovacion2, plazo_de_renovacion3, plazo_de_renovacion4, plazo_de_renovacion5, duracion_mantenimiento, duracion_mantenimiento2, duracion_mantenimiento3, duracion_mantenimiento4, duracion_mantenimiento5, veces_que_se_renueva_b, veces_que_se_renueva_b2, veces_que_se_renueva_b3, veces_que_se_renueva_b4, veces_que_se_renueva_b5, numerocamp, camp, op, numero, selec1, selec2, selec3, selec4, selec5, selec6;
 	
-	printf("\n CAMPESINO 1");
+	char nombres[5][30];
+	
+	printf("BIENVENIDO :D ");
+	
+	system("pause");
+	
+	system("cls");
+	
+	for(int i=0; i<5; i++){
+		printf("Cual es el nombre del campesino: ");
+		gets(nombres[i]);
+	}
+	
+	printf("\n CAMPESINO: ");
+	
+	for(int i=0; i<0; i++){
+		printf("%s\n", nombres[0]);
+	}
+	
+	printf("%s", nombres[0]);
 	
 	printf("\n ");
 	
@@ -91,7 +110,13 @@ int main(){
 	
 	system("cls");
 	
-	printf("\n CAMPESINO 2");
+	printf("\n CAMPESINO: ");
+	
+	for(int i=0; i<0; i++){
+		printf("%s\n", nombres[1]);
+	}
+	
+	printf("%s", nombres[1]);
 	
 	printf("\n ");
 	
@@ -176,7 +201,13 @@ int main(){
 	
 	system("cls");
 	
-	printf("\n CAMPESINO 3");
+	printf("\n CAMPESINO: ");
+	
+	for(int i=0; i<0; i++){
+		printf("%s\n", nombres[2]);
+	}
+	
+	printf("%s", nombres[2]);
 	
 	printf("\n ");
 	
@@ -261,7 +292,13 @@ int main(){
 	
 	system("cls");
 	
-	printf("\n CAMPESINO 4");
+	printf("\n CAMPESINO: ");
+	
+	for(int i=0; i<0; i++){
+		printf("%s\n", nombres[3]);
+	}
+	
+	printf("%s", nombres[3]);
 	
 	printf("\n ");
 	
@@ -348,7 +385,13 @@ int main(){
 	
 	printf("\n ");
 	
-	printf("\n CAMPESINO 5");
+	printf("\n CAMPESINO: ");
+	
+	for(int i=0; i<0; i++){
+		printf("%s\n", nombres[4]);
+	}
+	
+	printf("%s", nombres[4]);
 	
 	printf("\n ");
 	
@@ -435,7 +478,51 @@ int main(){
 		
 		system("cls");
 		
-		printf("\n\n\n SE HAN ANALIZADO LOS DATOS DE LOS SIGUIENTES CAMPESINOS\n 1.- CAMPESINO 1\n 2.- CAMPESINO 2\n 3.- CAMPESINO 3\n 4.- CAMPESINO 4\n 5.- CAMPESINO 5\n 6.- SALIR DEL MENU\n\n SELECCIONE LA OPCION PARA CONSULTAR LA INFORMACION: ");
+		printf("\n\n\n SE HAN ANALIZADO LOS DATOS DE LOS SIGUIENTES CAMPESINOS:\n");
+		
+		printf("\n 1.- CAMPESINO: ");
+		
+		for(int i=0; i<0; i++){
+			printf("%s\n", nombres[0]);
+		}
+		printf("%s", nombres[0]);
+		
+		printf("\n\n 2.- CAMPESINO: ");
+		
+		for(int i=0; i<0; i++){
+			printf("%s\n", nombres[1]);
+		}
+	
+		printf("%s", nombres[1]);
+		
+		printf("\n\n 3.- CAMPESINO: ");
+		
+		for(int i=0; i<0; i++){
+			printf("%s\n", nombres[2]);
+		}
+	
+		printf("%s", nombres[2]);
+		
+		printf("\n\n 4.- CAMPESINO: ");
+		
+		for(int i=0; i<0; i++){
+			printf("%s\n", nombres[3]);
+		}
+	
+		printf("%s", nombres[3]);
+		
+		printf("\n\n 5.- CAMPESINO: ");
+		
+		for(int i=0; i<0; i++){
+			printf("%s\n", nombres[4]);
+		}
+	
+		printf("%s", nombres[4]);
+		
+		printf("\n\n 6.- SALIR DEL MENU.");
+		
+		printf("\n\n SELECCIONE LA OPCION PARA CONSULTAR LA INFORMACION: ");
+		
 		scanf("%d", &selec1);
 		
 		switch(selec1)	{
@@ -446,7 +533,8 @@ int main(){
 			    
 					system("cls");
 					
-					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR(insertar esta opcion 6 veces)\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					
 					scanf("%d", &selec2);
 					
 	    			switch(selec2)	{
@@ -591,7 +679,8 @@ int main(){
 					
 					system("cls");
 					
-					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR(insertar esta opcion 6 veces)\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					
 					scanf("%d", &selec3);
 					
 	    			switch(selec3)	{
@@ -734,7 +823,8 @@ int main(){
 					
 					system("cls");
 					
-					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR(insertar esta opcion 6 veces)\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					
 					scanf("%d", &selec4);
 					
 					switch(selec4)	{
@@ -876,7 +966,8 @@ int main(){
 					
 					system("cls");
 					
-					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR(insertar esta opcion 6 veces)\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					
 					scanf("%d", &selec5);
 					
 	    			switch(selec5){
@@ -1018,7 +1109,8 @@ int main(){
 					
 					system("cls");
 					
-					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR(insertar esta opcion 6 veces)\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					printf("\n\n\n LOS SIGUIENTES DATOS HAN SIDO ANALIZADOS:\n 1. INFORMACION DEL TERRENO\n 2. CANTIDADES DE MATERIAL REQUERIDOS\n 3. COSTO TOTAL POR CADA MATERIAL\n 4. COSTO TOTAL PARA TODO EL TERRENO\n 5. COSTO TOTAL POR CADA METRO CUADRADO\n 6. FACTIBILIDAD DE IMPLEMENTACON DEL SISTEMA DE RIEGO EN BASE A SU PRESUPUESTO\n 7. REGRESAR AL MENU ANTERIOR\n\n INGRESE EL NUMERO PREASIGNADO PARA CONSULTAR LA INFORMACION DESEADA: ");
+					
 					scanf("%d", &selec6);
 					
 		    		switch(selec6)	{
