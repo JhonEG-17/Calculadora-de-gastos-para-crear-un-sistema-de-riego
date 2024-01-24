@@ -2,6 +2,8 @@
 #include <conio.h>
 #include <stdlib.h>
 
+//ESTE PROGRAMA FUE CREADO POR EL DESARROLLADOR JHONATAN ESPINAL GARCIA
+
 int main(){
 	
 	int opcion, base, base2, base3, base4, base5, altura, altura2, altura3, altura4, altura5, PE, PE2, PE3, PE4, PE5, cantidad_tuberia, cantidad_tuberia2, cantidad_tuberia3, cantidad_tuberia4, cantidad_tuberia5, n_bulbos_d_m, n_bulbos_d_m2, n_bulbos_d_m3, n_bulbos_d_m4, n_bulbos_d_m5, cantidad_bulbos, cantidad_bulbos2, cantidad_bulbos3, cantidad_bulbos4, cantidad_bulbos5, cantidad_reguladores, cantidad_reguladores2, cantidad_reguladores3, cantidad_reguladores4, cantidad_reguladores5, tuberia_por_metro_cuadrado, tuberia_por_metro_cuadrado2, tuberia_por_metro_cuadrado3, tuberia_por_metro_cuadrado4, tuberia_por_metro_cuadrado5, bulbos_por_metro_cuadrado, bulbos_por_metro_cuadrado2, bulbos_por_metro_cuadrado3, bulbos_por_metro_cuadrado4, bulbos_por_metro_cuadrado5, reguladores_por_metro_cuadrado, reguladores_por_metro_cuadrado2, reguladores_por_metro_cuadrado3, reguladores_por_metro_cuadrado4, reguladores_por_metro_cuadrado5, costo_por_metro_tuberia, costo_por_metro_tuberia2, costo_por_metro_tuberia3, costo_por_metro_tuberia4, costo_por_metro_tuberia5, costo_por_metro_blubos, costo_por_metro_blubos2, costo_por_metro_blubos3, costo_por_metro_blubos4, costo_por_metro_blubos5, costo_por_metro_reguladores, costo_por_metro_reguladores2, costo_por_metro_reguladores3, costo_por_metro_reguladores4, costo_por_metro_reguladores5, costo_total, costo_total2, costo_total3, costo_total4, costo_total5,costo_total_metro, costo_por_metro_cuadrado, costo_por_metro_cuadrado2, costo_por_metro_cuadrado3, costo_por_metro_cuadrado4, costo_por_metro_cuadrado5, costo_total_tuberia, costo_total_tuberia2, costo_total_tuberia3, costo_total_tuberia4, costo_total_tuberia5, n_paralelogramo, n_paralelogramo2, n_paralelogramo3, n_paralelogramo4, n_paralelogramo5, area_paralelogramo, area_paralelogramo2, area_paralelogramo3, area_paralelogramo4, area_paralelogramo5, area_del_lugar, area_del_lugar2, area_del_lugar3, area_del_lugar4, area_del_lugar5, costo_por_metro_bulbos, costo_por_metro_bulbos2, costo_por_metro_bulbos3, costo_por_metro_bulbos4, costo_por_metro_bulbos5, costo_total_bulbos, costo_total_bulbos2, costo_total_bulbos3, costo_total_bulbos4, costo_total_bulbos5, costo_total_reguladores, costo_total_reguladores2, costo_total_reguladores3, costo_total_reguladores4, costo_total_reguladores5, costo_por_metro_regulador, costo_por_metro_regulador2, costo_por_metro_regulador3, costo_por_metro_regulador4, costo_por_metro_regulador5, costo_total_metro2, costo_total_metro3, costo_total_metro4, costo_total_metro5, costo_total_por_dos_years_bulbos, costo_total_por_dos_years_bulbos2, costo_total_por_dos_years_bulbos3, costo_total_por_dos_years_bulbos4, costo_total_por_dos_years_bulbos5, plazo_de_renovacion, plazo_de_renovacion2, plazo_de_renovacion3, plazo_de_renovacion4, plazo_de_renovacion5, duracion_mantenimiento, duracion_mantenimiento2, duracion_mantenimiento3, duracion_mantenimiento4, duracion_mantenimiento5, veces_que_se_renueva_b, veces_que_se_renueva_b2, veces_que_se_renueva_b3, veces_que_se_renueva_b4, veces_que_se_renueva_b5, numerocamp, camp, op, numero, selec1, selec2, selec3, selec4, selec5, selec6;
@@ -1251,6 +1253,8 @@ int main(){
 	}while(selec1!=6);
 
 printf("\n GRACIAS POR UTILIAR ESTE PROGRAMA :D\n");
+
+printf("\n ESTE PROGRAMA FUE CREADO POR EL DESARROLLADOR JHONATAN ESPINAL GARCIA");
 
 printf("\n ");
 
